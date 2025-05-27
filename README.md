@@ -1,4 +1,4 @@
-# Möbius Strip Generator and Analyzer
+# Mobius Strip Generator and Analyzer
 
 A Python implementation for generating, visualizing, and analyzing the mathematical properties of a Möbius strip - a fascinating topological surface with only one side and one boundary.
 
