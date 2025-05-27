@@ -1,8 +1,8 @@
-# Möbius Strip Code Explanation
+# Mobius Strip Code Explanation
 
 ## Overview
 
-This code implements a complete Möbius strip generator that creates the mathematical surface, calculates its properties, and visualizes it in 3D. The implementation uses parametric equations and numerical methods to analyze this fascinating topological object.
+This code implements a complete Mobius strip generator that creates the mathematical surface, calculates its properties, and visualizes it in 3D. The implementation uses parametric equations and numerical methods to analyze this fascinating topological object.
 
 ## Class Structure: `MobiusStrip`
 
@@ -37,7 +37,7 @@ def generate_surface(self):
 ```
 
 **Mathematical Foundation:**
-- **Parametric equations** define every point on the Möbius strip surface
+- **Parametric equations** define every point on the Mobius strip surface
 - `np.meshgrid()` creates a 2D grid of (u,v) parameter pairs
 - **The key insight:** The `u/2` term creates the half-twist that makes the surface one-sided
 
@@ -95,7 +95,7 @@ def compute_edge_length(self):
    - Distance formula: √(Δx² + Δy² + Δz²)
    - Sums all segment lengths
 
-**Key insight:** A Möbius strip has only ONE boundary edge, unlike a normal strip which has two.
+**Key insight:** A Mobius strip has only ONE boundary edge, unlike a normal strip which has two.
 
 ### 4. Visualization (`plot`)
 
@@ -169,4 +169,4 @@ if __name__ == "__main__":
 3. **Numerical precision:** Limited by floating-point arithmetic
 4. **Boundary effects:** Edge calculations assume smooth parameterization
 
-This implementation provides a solid foundation for understanding and analyzing Möbius strips, balancing mathematical accuracy with computational efficiency.
+This implementation provides a solid foundation for understanding and analyzing Mobius strips, balancing mathematical accuracy with computational efficiency.
